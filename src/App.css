@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.app{
+    display: flex;
+    gap: 100px;
+}
+.sidebar{
+    height: 100vh;
+    background-color: brown;
+    width: 250px;
+}
+.sidebar .links{
+    margin-top: 100px;
+}
+.sidebar .links .link{
+display: block;
+text-decoration: none;
+text-align: center;
+margin-bottom: 50px;
+color: #fff;
+font-size: 25px;
+}
+.sidebar .links .link:hover {
+    color: gold;
+}
+.cancel , .tracking , .room-one , .room-two , .room-three , .no-replay{
+    margin-top: 100px;
+}
+h1{
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+form input{
+    margin:5px;
+    padding: 10px;
+    outline: none;
+}
+table th , tr , td{
+    padding: 10px;
+}
+table{
+    width: 800px;
+    text-align: center;
+}
+.add{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.delete{
+ background-color: #f00;
+    color: #fff;
+    padding: 10px 15px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+th{
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    font-size: 18px;
+}
+.thead{
+    display: block;
+}
+
+table{
+    margin: auto;
+}
+.no-user{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    width: max-content;
+    text-align: center;
+}
+.details{
+    background-color:darkcyan;
+    color: #fff;
+    padding: 10px 15px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.no-users{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    background-color: #F8D7DA;
+    padding: 20px 70px;
+    border-radius: 10px;
+    
+
+}
